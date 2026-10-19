@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10182d">
+  <meta name="description" content="A celebration of love, family and forever.">
+  <title>Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#home" class="wordmark">FOREVER <span>✳</span></a>
+    <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+    <nav id="navLinks">
+      <a href="#story">Our story</a>
+      <a href="#reception">Reception</a>
+      <a href="#wedding">Wedding</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: replace images/temple-hero.png with your own portrait temple image if desired -->
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        
+        <p class="hero-small">Together with our families</p>
+        <h1><span id="heroGroom">Groom’s Name</span><em>&</em><span id="heroBride">Bride’s Name</span></h1>
+        <p class="tamil hero-tamil">இரு மனங்கள் · ஓர் அழகான தொடக்கம்</p>
+        <div class="gold-rule"><span>✦</span></div>
+        <p class="hero-invite">invite you to share in the joy<br>of their new beginning</p>
+        <a href="#story" class="scroll-link">SCROLL TO BEGIN <span>↓</span></a>
+      </div>
+      <div class="hero-caption">A CELEBRATION OF LOVE · FAMILY · TRADITION</div>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="story-text">
+        <p class="eyebrow">A NEW CHAPTER</p>
+        <h2>Forever Starts Here</h2>
+        <p class="tamil tamil-heading">இனிதே தொடங்கும் புதிய பயணம்</p>
+        <div class="gold-rule dark-rule"><span>✦</span></div>
+        <p class="lead">Two hearts, two journeys, one beautiful forever.</p>
+        <p class="body-copy">With the love and blessings of our families, we invite you to be part of the beginning of our life together. Your presence will make these cherished moments even more meaningful.</p>
+        <p class="tamil body-tamil">எங்கள் வாழ்வின் இந்த அழகான தொடக்கத்தில், உங்கள் அன்பும் ஆசியும் எங்களுடன் இருக்க அன்புடன் அழைக்கிறோம்.</p>
+        <p class="script-note">A day to remember, a lifetime to cherish.</p>
+      </div>
+      <div class="story-photos">
+        <img class="story-photo photo-one" src="images/couple-1.jpg" alt="Couple portrait — replace with your photo">
+        <img class="story-photo photo-two" src="images/couple-2.jpg" alt="Couple photograph — replace with your photo">
+        <span class="photo-seal">THE<br><b>JG</b><br>STORY</span>
+      </div>
+    </section>
+
+    <section class="interlude">
+      <div class="interlude-overlay"></div>
+      <div class="interlude-content">
+        <p class="eyebrow light">A PROMISE FOR A LIFETIME</p>
+        <h2>And so, our forever begins.</h2>
+        <p class="tamil">இன்று முதல் என்றும் ஒன்றாக</p>
+      </div>
+    </section>
+
+    <section class="event-section reception-section section-pad" id="reception">
+      <div class="event-visual reception-visual" role="img" aria-label="Reception backdrop placeholder">
+        <div class="visual-caption"><span>01 / THE CELEBRATION</span><h2>An Evening<br>to Remember</h2></div>
+      </div>
+      <div class="event-copy">
+        <p class="eyebrow">YOU ARE CORDIALLY INVITED</p>
+        <h2>The Reception</h2>
+        <div class="gold-rule dark-rule"><span>✦</span></div>
+        <p class="lead">Join us for an evening filled with love, laughter and blessings.</p>
+        <div class="detail-list">
+          <div class="detail"><span class="detail-icon">✧</span><div><small>DATE</small><strong id="receptionDate">Add reception date</strong></div></div>
+          <div class="detail"><span class="detail-icon">◷</span><div><small>TIME</small><strong id="receptionTime">Add reception time</strong></div></div>
+          <div class="detail"><span class="detail-icon">⌖</span><div><small>VENUE</small><strong id="venueReception">Venue name</strong><p id="addressReception">Venue address, city</p></div></div>
+        </div>
+        <a class="outline-button" id="receptionMap" href="https://maps.google.com/" target="_blank" rel="noreferrer">OPEN LOCATION IN MAPS ↗</a>
+      </div>
+    </section>
+
+    <section class="event-section wedding-section section-pad" id="wedding">
+      <div class="event-copy">
+        <h2>The Wedding</h2>
+        <p class="tamil tamil-heading">திருமண விழா</p>
+        <div class="gold-rule dark-rule"><span>✦</span></div>
+        <p class="lead">A sacred beginning, surrounded by the people who mean the most.</p>
+        <div class="detail-list">
+          <div class="detail"><span class="detail-icon">✧</span><div><small>DATE</small><strong id="weddingDate">Add wedding date</strong></div></div>
+          <div class="detail"><span class="detail-icon">◷</span><div><small>MUHURTHAM</small><strong id="weddingTime">Add muhurtham time</strong></div></div>
+          <div class="detail"><span class="detail-icon">⌖</span><div><small>VENUE</small><strong id="venueWedding">Venue name</strong><p id="addressWedding">Venue address, city</p></div></div>
+        </div>
+        <a class="outline-button" id="weddingMap" href="https://maps.google.com/" target="_blank" rel="noreferrer">OPEN LOCATION IN MAPS ↗</a>
+      </div>
+      <div class="event-visual wedding-visual" role="img" aria-label="Wedding temple backdrop placeholder">
+        <div class="visual-caption"><span>02 / THE SACRED VOWS</span><h2>Two Souls.<br>One Promise.</h2></div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+        <h2>Frames of Us</h2>
+        <p class="lead">A few favourite moments from the story we’ll keep writing.</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall" data-image="images/couple-3.jpg" aria-label="View couple photo 3"><img src="images/couple-3.jpg" alt="Couple photo 3 — replace image"><span>03</span></button>
+        <button class="gallery-item" data-image="images/couple-4.jpg" aria-label="View couple photo 4"><img src="images/couple-4.jpg" alt="Couple photo 4 — replace image"><span>04</span></button>
+        <button class="gallery-item" data-image="images/couple-5.jpg" aria-label="View couple photo 5"><img src="images/couple-5.jpg" alt="Couple photo 5 — replace image"><span>05</span></button>
+        <button class="gallery-item" data-image="images/couple-6.jpg" aria-label="View couple photo 6"><img src="images/couple-6.jpg" alt="Couple photo 6 — replace image"><span>06</span></button>
+        <button class="gallery-item" data-image="images/couple-7.jpg" aria-label="View couple photo 7"><img src="images/couple-7.jpg" alt="Couple photo 7 — replace image"><span>07</span></button>
+        <button class="gallery-item" data-image="images/couple-8.jpg" aria-label="View couple photo 8"><img src="images/couple-8.jpg" alt="Couple photo 8 — replace image"><span>08</span></button>
+      </div>
+      <p class="gallery-note">Tap a photograph to see it in full.</p>
+    </section>
+
+    <section class="closing">
+      <div class="closing-overlay"></div>
+      <div class="closing-content">
+        <p class="eyebrow light">WITH LOVE & GRATITUDE</p>
+        <h2>We can’t wait to celebrate<br>with you.</h2>
+        <p class="tamil">உங்கள் அன்பும் ஆசியும் என்றும் எங்களுடன் இருக்கட்டும்</p>
+        <div class="gold-rule"><span>✦</span></div>
+        <p class="closing-names"><span id="closingGroom">Groom’s Name</span> <i>&</i> <span id="closingBride">Bride’s Name</span></p>
+        <a href="#home" class="back-top">BACK TO THE BEGINNING ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Expanded photo">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImage" src="" alt="Expanded couple photograph">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
